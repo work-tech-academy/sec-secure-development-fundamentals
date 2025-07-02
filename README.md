@@ -1,59 +1,64 @@
-# [Course Title Here]
+# Curso de Preparación para el Examen de Desarrollo Seguro
 
-📚 This repository contains resources for the **[Course Title]** course.  
-> Replace this section with a concise summary describing the goal and scope of the course.
+📚 Este repositorio contiene una guía de estudio completa y recursos para el curso de **Preparación para el Examen de Desarrollo Seguro**. El objetivo es cubrir los conceptos fundamentales y avanzados de la seguridad en el desarrollo de software, desde la teoría hasta la implementación práctica, utilizando como base el "Manual de Preparación para el Examen de Desarrollo Seguro".
 
 ---
 
-## 📂 Directory Structure
+## 📂 Directory Overview
 
-- `materials/` – Manuals, slides, cheatsheets, and official docs
-- `videos/` – Video links or recordings
-- `exercises/` – Hands-on tasks, coding labs, and challenges
-- `quizzes/` – Multiple-choice questions or assessments
-- `notes/` – Course notes, summaries, or key takeaways
+- `materials/` – Contiene el manual completo y otros documentos de referencia.
+- `videos/` – (Vacío) Espacio para futuros enlaces a videos o playlists.
+- `exercises/` – (Vacío) Espacio para futuros ejercicios prácticos y laboratorios.
+- `quizzes/` – Contiene las preguntas de repaso y autoevaluación de cada capítulo.
+- `notes/` – Contiene los apuntes de estudio detallados en formato de diálogo para cada uno de los 9 módulos del curso.
 
 ---
 
 ## 📅 Course Metadata
 
-| Field    | Value                                  |
-|----------|----------------------------------------|
-| Level    | Beginner / Intermediate / Advanced     |
-| Duration | e.g. 2 hours / 4 weeks / self-paced     |
-| Format   | Self-paced / Instructor-led / Hybrid   |
-| Tags     | `#frontend` `#security` `#cloud` etc.  |
+| Field            | Value                    |
+|------------------|---------------------------|
+| Level            | Intermedio |
+| Duration         | Auto-dirigido (9 módulos)     |
+| Format           | Auto-dirigido (Self-paced) |
+| Tags             | `#security`, `#devsecops`, `#owasp`, `#exam-prep` |
 
 ---
 
 ## ✅ Learning Objectives
 
-- Understand how to [...]
-- Apply best practices in [...]
-- Build or configure [...]
-
-> Update these bullet points to match the outcomes of the course.
-
----
-
-## 📝 Progress Tracker
-
-Use this checklist to track your personal progress or course status:
-
-- [ ] Module 1 – Introduction
-- [ ] Module 2 – [Topic Name]
-- [ ] Module 3 – [Topic Name]
-- [ ] Final Assessment / Capstone
+- Comprender y aplicar los principios del Ciclo de Vida de Desarrollo de Software Seguro (Secure SDLC).
+- Dominar los fundamentos de la programación segura, incluyendo la validación de entradas y la codificación de salidas.
+- Diferenciar y saber cuándo utilizar pruebas de seguridad SAST, DAST e IAST.
+- Identificar y mitigar las vulnerabilidades del OWASP Top 10 para Web, Móvil y APIs.
+- Entender cómo integrar la seguridad en un pipeline de CI/CD bajo la filosofía DevSecOps.
+- Reconocer los nuevos vectores de ataque en sistemas de Inteligencia Artificial.
 
 ---
 
-## 🔄 How to Use This Template
+## 📝 Módulos del Curso y Seguimiento de Progreso
 
-If you are creating a new course:
+Usa esta lista como índice principal para navegar por los apuntes de estudio y para marcar tu progreso.
 
-1. Click `Use this template` (top of the page).
-2. Name your new repository after the course.
-3. Replace all `[Course Title Here]` and placeholder text.
-4. Populate the folders with your own materials.
+### Material de Estudio (Apuntes Detallados)
+- [ ] **Módulo 1** – [Seguridad en el Ciclo de Vida de Desarrollo de Software (SDLC)](./notes/01-SDLC.md)
+- [ ] **Módulo 2** – [Fundamentos de la Programación Segura](./notes/02-Fundamentos.md)
+- [ ] **Módulo 3** – [Pruebas de Seguridad (SAST, DAST, IAST)](./notes/03-SAST-DAST.md)
+- [ ] **Módulo 4** – [Seguridad en Aplicaciones Web (OWASP Top 10)](./notes/04-Web-OWASP.md)
+- [ ] **Módulo 5** – [Desarrollo Seguro de Aplicaciones Móviles](./notes/05-Movil-OWASP.md)
+- [ ] **Módulo 6** – [Desarrollo Seguro de APIs (OWASP API Security Top 10)](./notes/06-API-OWASP.md)
+- [ ] **Módulo 7** – [DevSecOps: Integrando la Seguridad](./notes/07-DevSecOps.md)
+- [ ] **Módulo 8** – [Seguridad en Inteligencia Artificial](./notes/08-Seguridad-IA.md)
+- [ ] **Módulo 9** – [Estrategia para el Examen y Repaso Final](./notes/09-Estrategia-Examen.md)
 
-Happy learning! 🚀
+### Material de Evaluación
+- [ ] **Evaluación Final** – [Quizzes de Repaso (Todas las Preguntas)](./quizzes/preguntas-repaso.md)
+
+### Material Adicional
+- [ ] **Lectura Complementaria** – [Manual Original Completo](./materials/manual-completo.md)
+
+---
+
+## Cómo Contribuir
+
+Si encuentras un error, tienes una pregunta o quieres proponer una mejora, ¡no dudes en abrir un "Issue" o enviar un "Pull Request"!
