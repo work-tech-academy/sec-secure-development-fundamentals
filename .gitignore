@@ -1,0 +1,8 @@
+# Ignore node, python, .NET, etc. if needed
+*.log
+.env
+.DS_Store
+__pycache__/
+.vscode/
+.idea/
+node_modules/
