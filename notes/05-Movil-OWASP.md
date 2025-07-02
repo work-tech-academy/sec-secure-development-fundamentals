@@ -27,7 +27,7 @@ Este tópico aborda los desafíos y riesgos de seguridad específicos de las pla
 
 **Alex:** Lo es, pero en el móvil el impacto es más directo. Las apps modernas son un Frankenstein de SDKs de terceros: para publicidad, análisis, notificaciones push, etc..
 * **Vectores Específicos para Móviles:** El riesgo es incluir un SDK malicioso o vulnerable que recopila datos excesivos, o el compromiso de las herramientas de desarrollo o de las claves de firma de aplicaciones, permitiendo distribuir versiones troyanizadas de tu app.
-* **Estrategias de Prevención:** Hay que "investigar" a los componentes de terceros antes de integrarlos. Usa herramientas de SCA para analizar susulnerabilidades, revisa los permisos que solicitan y utiliza solo SDKs de fuentes confiables. Además, protege rigurosamente tus claves de firma de la app.
+* **Estrategias de Prevención:** Hay que "investigar" a los componentes de terceros antes de integrarlos. Usa herramientas de SCA para analizar sus vulnerabilidades, revisa los permisos que solicitan y utiliza solo SDKs de fuentes confiables. Además, protege rigurosamente tus claves de firma de la app.
 
 ---
 **Sofía:** **M3: Insecure Authentication/Authorization (Autenticación/Autorización Insegura)**. ¿Cuál es el giro móvil aquí?
